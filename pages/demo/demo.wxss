@@ -1,0 +1,53 @@
+/* pages/demo/demo.wxss */
+page{
+background: #E0EBF1;
+}
+.slide-image{
+  width: 750rpx;
+  height: 360rpx;
+}
+.wrap{
+  padding-left:20rpx;
+  display: flex;
+  flex-direction: column;
+  
+}
+.film_item{
+  display: flex;
+  padding: 24rpx 0 30rpx;
+  border-bottom: 1rpx solid #CED9DF;
+}
+.film_pic{
+  width: 160rpx;
+  height: 160rpx;
+}
+.film_txt{
+  flex: 1;
+  height:160rpx;
+  margin-left: 20rpx;
+  padding-right: 182rpx;
+}
+.film_des{
+
+  overflow: hidden;
+  font-size: 26rpx;
+
+}
+.film_des text{
+  overflow : hidden;  
+  text-overflow: ellipsis;  
+  display: -webkit-box;  
+  -webkit-line-clamp: 3;  
+  -webkit-box-orient: vertical;  
+  line-height: 35rpx;
+  color: #687176;
+  
+}
+.film_name{
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+.film_name text{
+  color: #253d55;
+  font-weight: bold;
+}

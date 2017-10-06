@@ -1,0 +1,37 @@
+/* pages/demo/detail/detail.wxss */
+page{
+background: #E0EBF1;
+}
+.top image{
+  width: 750rpx;
+  height: 360rpx;
+}
+.detailCon{
+  padding:30rpx;
+}
+.detailTit{
+  height: 75rpx;
+  line-height: 75rpx;
+  text-align: center;
+  border-bottom:1rpx solid #BDBDBD;
+  color: #1D3D56;
+  font-weight: bold;
+  position: relative;
+}
+.collect{
+  width: 40rpx;
+  height: 40rpx;
+}
+.detailTit image{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 0;
+  top:30%;
+}
+.detailDes{ 
+  padding-top: 40rpx;
+  text-indent: 2rem;
+  font-size: 26rpx;
+  line-height: 50rpx;
+}

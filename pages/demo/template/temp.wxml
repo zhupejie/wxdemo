@@ -1,0 +1,14 @@
+<template name="item2">
+
+<view class="film_item" bindtap="toDetail" data-id="{{item.id}}">
+      <image src="{{item.url}}" class="film_pic"></image>
+      <view class="film_txt">
+        <view class="film_name">
+          <text>{{item.name}}</text>
+        </view>
+        <view class="film_des">
+          <text>{{item.des}}</text>
+        </view>  
+      </view>
+  </view>
+</template>

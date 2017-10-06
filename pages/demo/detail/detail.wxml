@@ -1,0 +1,18 @@
+<!--pages/demo/detail/detail.wxml-->
+<view class="top">
+  <image src="/images/img_info.jpg"></image>
+</view>
+<view class="detailCon">
+  <view class="detailTit">
+    <text>{{list.name}}</text>
+   
+      <image src="/images/a.jpg" wx:if="{{collected}}" catchtap="collect"></image>
+      <image src="/images/b.jpg" wx:else catchtap="collect"></image>
+    
+  </view>
+  <view class="detailDes">
+    <text>{{list.des}}</text>
+  </view>
+</view>
+
+
